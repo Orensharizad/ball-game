@@ -1,0 +1,44 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cell {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+
+.cell img {
+    width: 25px;
+    height: auto;
+}
+
+.floor {
+    background-color: gray;
+}
+
+.wall {
+    background-color: brown;
+}
+
+
+.restart-btn {
+    display: none;
+    margin: 10px;
+    margin-left: 200px;
+    padding: 10px;
+    background-color: green;
+    color: white;
+}
+
+.restart-btn:hover {
+    background-color: rgb(12, 222, 12);
+}
